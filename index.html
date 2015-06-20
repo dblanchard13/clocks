@@ -10,6 +10,7 @@
     <link type="text/css" rel="stylesheet" href="assets/materialize/css/materialize.min.css">
     <link type="text/css" rel="stylesheet" href="assets/css/styles.css">
     <link type="text/css" rel="stylesheet" href="assets/jonthornton-jquery-timepicker/jquery.timepicker.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 <body>
@@ -17,9 +18,22 @@
 <div class="wrapper">
 
   <header class="switch-clocks z-depth-1">
+    <div class="mute-container">
+      <a class="mute-button waves-effect waves-light"><i class="material-icons md-48">volume_up</i></a>
+    </div>
+
     <a class="alarm waves-effect">Digital</a>
     <a class="stopwatch waves-effect">Home</a>
     <a class="timer waves-effect">Analog</a>
+
+    <div class="play-container">
+      <a class="play-button waves-effect waves-light"><i class="material-icons md-48">pause</i></a>
+    </div>
+
+    <!-- <div class="pause-container">
+      <a class="pause-button waves-effect"><i class="material-icons md-48">face</i></a>
+    </div> -->
+
   </header>
 
   <div class="app">
